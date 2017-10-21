@@ -23,8 +23,9 @@ public class DoWhileGugudan {
 	
 	
 	public static void main(String[] args) {
-		int start = getUserInput();
-		int end = getUserInput();
+		int start, end;
+		start = getUserInput(); 
+		end = getUserInput();
 		
 	}
 
