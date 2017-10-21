@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Gugudan {
 
-//	getUserInput 메서드을 호출하여 해당 단을 입력 받아서 그 값에 해당하는 단을 출력 하세요.(for구문 사용)
+//	getUserInput 메서드을 호출하여 해당 단을 입력 받아서 그 값에 해당하는 단을 출력 하세요.(반복문을 사용하지 마세요.)
 
 //  출력형태
 //	구구단 중에서 출력할 단은 몇단인가요?
@@ -34,8 +34,8 @@ public class Gugudan {
  */
 	private static int getUserInput() {
 		Scanner sc = new Scanner(System.in);
-		String input= sc.nextLine();
-		return Integer.parseInt(input);
+		int input= sc.nextInt();
+		return input;
 	}
 
 }
